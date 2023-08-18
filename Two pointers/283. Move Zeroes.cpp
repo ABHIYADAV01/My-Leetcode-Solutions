@@ -16,8 +16,7 @@ public:
       while(i<nums.size()){
           nums[i++]=0;
       }
-
-          
+     
         
     }
 };
