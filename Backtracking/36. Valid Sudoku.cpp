@@ -52,12 +52,7 @@ public:
     bool isValidSudoku(vector<vector<char>>& board) {
 
         int n = board.size();
-
-
         bool ans = solveSudoku(board,n);
-
         return ans;
-        
-        
     }
 };
